@@ -10,6 +10,7 @@ export class Tab1Page {
   num2 : string
   num3 : string
   saida : string
+  img : any = "assets/icon/calculadora.gif"
   constructor() {}
 
   analisa(){
@@ -18,21 +19,26 @@ export class Tab1Page {
   var c = parseFloat(this.num3)
 
   if ((a + b) > c && (a + c) > b && (b + c) > a){
+
     if ((a != b) && (a != c) && (b !=c)){
       this.saida = " Triangulo  Escaleno"
+      this.img = "assets/icon/escaleno.png"
       }
 
-    if ((a == b) && (a == c) && (b == c)) {
-      this.saida = " Triangulo Equilatero"  
+    else if ((a == b) && (a == c) && (b == c)) {
+      this.saida = " Triangulo Equilatero"
+      this.img = "assets/icon/equilatero.png"  
     }
 
     else{
       this.saida = " Triangulo Isosceles"
+      this.img = "assets/icon/isosceles.png"
     }
   }
 
   else{
     this.saida  = "Triangulo Não Existe"
+    this.img = "assets/icon/alerta.png"
   }
 }
 }

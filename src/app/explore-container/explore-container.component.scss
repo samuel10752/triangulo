@@ -4,7 +4,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 50%;
+  top: 20%;
   transform: translateY(-50%);
 }
 
@@ -28,7 +28,7 @@
 
 #button{
   position: absolute;
-  top: 20%;
+  top: 15%;
 }
 
 #resul{
@@ -41,12 +41,27 @@
 #ti{
   position: absolute;
   left: 1%;
-  font-size: 154%;
+  font-size: 150%;
+  top: -25%
 }
 
 #button p{
   position: absolute;
   left: 33%;
-  width: 60%;
-  top: 135%;
+  width: 65%;
+  top: 125%;
+}
+
+#img{
+  position:absolute;
+  top: 150%;
+  left: 30%;
+  width: 65%;
+}
+
+#tit{
+  position: absolute;
+  left: 10%;
+  font-size: 165%;
+  top: -25%
 }
