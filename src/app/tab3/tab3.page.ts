@@ -29,7 +29,7 @@ export class Tab3Page {
       this.img = "assets/icon/gostar.gif"
     }
     else{
-      this.saida = "Triangulo não existe!!!"
+      this.saida ="Triangulo não existe!!"
       this.img = "assets/icon/alerta.png"
     }
   }
